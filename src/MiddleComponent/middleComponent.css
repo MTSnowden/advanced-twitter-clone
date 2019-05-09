@@ -1,0 +1,9 @@
+.middle-top {
+    border: 2px solid purple;
+    height: 10%;
+  }
+  
+  .middle-bottom {
+    border: 2px solid blue;
+    height: 90%;
+  }

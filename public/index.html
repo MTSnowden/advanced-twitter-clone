@@ -13,36 +13,7 @@
   </head>
   <body>
     <div id="root"></div>
-    <script>
-      var tweets = [
-        "ACA class was so awesome today.",
-        "I just checked out that new restaurant, it was okay",
-        "I just saw a movie that changed my life",
-        "shirts are 50% of at Macy's today"
-      ];
     
-    </script>
-
-    <script>
-      //if i was using html all i would have to do is type <h1>Aca class was so awesome today.</h1>
-      //this is a lot easier than writing this code
-      //so why would I write this code at all
-      var h1 = document.createElement("h1");
-      h1.innerHTML = tweets[0];
-      document.body.appendChild(h1);
-
-    </script>
-
-    <script type="text/jsx">
-    //doing the same thing in react looks like it takes the same amount if not more code
-    //what is the point of using react then
-  
-    var tweet = React.createElement("h1",null,tweets[1])
-    ReactDOM.render(
-      tweet, 
-      document.getElementById('root')
-    );
-    </script>
-
   </body>
 </html>
+

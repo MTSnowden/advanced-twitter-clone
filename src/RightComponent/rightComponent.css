@@ -1,0 +1,9 @@
+.right-top {
+    border: 2px solid yellow;
+    height: 60%;
+}
+
+.right-bottom {
+    border: 2px solid pink;
+    height: 40%;
+}
